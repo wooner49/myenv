@@ -1,5 +1,8 @@
 #!/bin/bash
 
+DIR=`pwd`
+ln -s -f $DIR/.gitconfig ~/.gitconfig
+
 apt-get update
 apt-get install -y libxrender1 g++
 
